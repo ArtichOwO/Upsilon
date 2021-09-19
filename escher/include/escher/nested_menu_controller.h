@@ -41,7 +41,7 @@ protected:
     int depth() const;
     void resetStack();
   private:
-    constexpr static int k_maxModelTreeDepth = 4;
+    constexpr static int k_maxModelTreeDepth = 3;
     State m_statesStack[k_maxModelTreeDepth];
   };
 
